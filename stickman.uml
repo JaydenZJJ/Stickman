@@ -1,0 +1,1072 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>stickman</OriginalElement>
+  <nodes>
+    <node x="869.5" y="1236.0">stickman.Entities.FloorTileFactory.DefaultDirtFloorTile</node>
+    <node x="2649.5709160530073" y="519.0">stickman.Entities.Entity</node>
+    <node x="5690.805922072957" y="5427.5">stickman.view.KeyboardInputHandler</node>
+    <node x="2876.1527777777774" y="2035.0">stickman.Entities.Slime</node>
+    <node x="4313.740046806461" y="4572.5">stickman.levels.LevelDirector</node>
+    <node x="1457.5" y="4100.0">stickman.Entities.FloorTileFactory.DefaultFloorTileFactory</node>
+    <node x="1779.5" y="1236.0">stickman.Entities.FloorTileFactory.DefaultTopFloorTile</node>
+    <node x="5947.655922072958" y="2124.0">stickman.view.BlockedBackground</node>
+    <node x="2539.386111111111" y="3014.0">stickman.Entities.FloorTileFactory.FloorTileFactory.Path</node>
+    <node x="568.5" y="1236.0">stickman.Entities.FloorTileFactory.DefaultRightFloorTile</node>
+    <node x="3943.024999999999" y="1236.0">stickman.Entities.YouWinBanner</node>
+    <node x="3112.419444444444" y="1673.0">stickman.Entities.Slime.Colour</node>
+    <node x="5421.156713473127" y="1192.5">stickman.Entities.HeroPathState.StandState</node>
+    <node x="3498.4416666666657" y="1236.0">stickman.Entities.Flag</node>
+    <node x="4717.834210526315" y="6199.0">stickman.App</node>
+    <node x="5040.559210526315" y="1728.0">stickman.Entities.HeroPathState.HeroPathStateContext</node>
+    <node x="5718.250085792813" y="1673.5">stickman.model.GameEngine</node>
+    <node x="2442.136111111111" y="2168.5">stickman.Entities.FloorTileFactory.FloorTileFactory</node>
+    <node x="3623.524999999999" y="2101.0">stickman.Entities.Mushroom</node>
+    <node x="5081.555922072958" y="0.0">stickman.Entities.HeroPathState.ImagePathState</node>
+    <node x="3330.4416666666657" y="1236.0">stickman.Entities.Ghost</node>
+    <node x="4083.7400468064607" y="3879.0">stickman.levels.LevelBuilder</node>
+    <node x="2073.5" y="1236.0">stickman.Entities.Platform</node>
+    <node x="4404.740046806461" y="4870.0">stickman.model.GameEngineImpl</node>
+    <node x="239.5" y="1236.0">stickman.Entities.FloorTileFactory.DefaultRightCornerFloorTile</node>
+    <node x="3759.024999999999" y="1740.0">stickman.Entities.Subject</node>
+    <node x="2098.372829744198" y="5427.0">stickman.view.EntityViewImpl</node>
+    <node x="5834.9167524594795" y="607.5">stickman.view.BackgroundDrawer</node>
+    <node x="5159.156713473127" y="595.5">stickman.Entities.HeroPathState.WalkRightState</node>
+    <node x="4716.834210526315" y="5740.0">stickman.view.GameWindow</node>
+    <node x="1162.5" y="1236.0">stickman.Entities.FloorTileFactory.DefaultLeftFloorTile</node>
+    <node x="10.5" y="1236.0">stickman.Entities.Tree</node>
+    <node x="4149.025" y="1236.0">stickman.Entities.Bullet</node>
+    <node x="4648.864255406292" y="4000.0">stickman.model.Memento</node>
+    <node x="4838.081063425217" y="1225.5">stickman.Entities.HeroPathState.HeroPathStateContext.Actor</node>
+    <node x="2342.636111111111" y="5047.0">stickman.view.EntityView</node>
+    <node x="1456.5" y="1236.0">stickman.Entities.FloorTileFactory.DefaultLeftCornerFloorTile</node>
+    <node x="5317.498380139794" y="277.5">stickman.Entities.HeroPathState.WalkLeftState</node>
+    <node x="2605.904249386341" y="256.0">stickman.Entities.Entity.Layer</node>
+    <node x="4651.306063425216" y="1072.0">stickman.levels.Level</node>
+    <node x="3800.9581919810744" y="2518.0">stickman.levels.LevelImp</node>
+    <node x="4346.306063425216" y="2035.0">stickman.Entities.Hero</node>
+    <node x="4711.864255406292" y="4573.0">stickman.model.CareTaker</node>
+    <node x="2648.5579640100123" y="4485.0">stickman.levels.DefaultLevelBuilder</node>
+    <node x="5600.250085792813" y="2135.0">stickman.view.SkyOnlyBackground</node>
+    <node x="3728.4416666666657" y="1270.5">stickman.levels.Observer</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="stickman.view.GameWindow" target="stickman.Entities.Hero">
+      <point x="-10.199999999999818" y="-204.5" />
+      <point x="4808.634210526316" y="5680.0" />
+      <point x="4633.114255406292" y="5680.0" />
+      <point x="4633.114255406292" y="3809.0" />
+      <point x="4605.614255406292" y="3809.0" />
+      <point x="4605.614255406292" y="2448.0" />
+      <point x="4545.806063425216" y="2448.0" />
+      <point x="85.5" y="171.5" />
+    </edge>
+    <edge source="stickman.view.GameWindow" target="stickman.levels.Level">
+      <point x="10.199999999999818" y="-204.5" />
+      <point x="4829.034210526315" y="5680.0" />
+      <point x="5008.458419126146" y="5680.0" />
+      <point x="5008.458419126146" y="1593.0" />
+      <point x="4783.806063425216" y="1593.0" />
+      <point x="53.0" y="225.5" />
+    </edge>
+    <edge source="stickman.view.EntityViewImpl" target="stickman.view.EntityView">
+      <point x="66.75" y="-116.5" />
+      <point x="2254.122829744198" y="5407.0" />
+      <point x="2372.3027777777775" y="5407.0" />
+      <point x="-59.333333333333485" y="71.5" />
+    </edge>
+    <edge source="stickman.Entities.FloorTileFactory.DefaultFloorTileFactory" target="stickman.Entities.FloorTileFactory.DefaultLeftCornerFloorTile">
+      <point x="0.0" y="-27.0" />
+      <point x="0.0" y="61.5" />
+    </edge>
+    <edge source="stickman.Entities.Slime" target="stickman.levels.Observer">
+      <point x="62.0" y="-171.5" />
+      <point x="3031.1527777777774" y="2005.0" />
+      <point x="3688.311489301585" y="2005.0" />
+      <point x="3688.311489301585" y="1633.0" />
+      <point x="3758.1916666666657" y="1633.0" />
+      <point x="-29.75" y="27.0" />
+    </edge>
+    <edge source="stickman.levels.DefaultLevelBuilder" target="stickman.Entities.Flag">
+      <point x="17.411764705882433" y="-137.5" />
+      <point x="2813.9697287158947" y="4395.0" />
+      <point x="2886.4027777777774" y="4395.0" />
+      <point x="2886.4027777777774" y="3859.0" />
+      <point x="3480.454167686994" y="3859.0" />
+      <point x="3480.454167686994" y="1593.0" />
+      <point x="3550.6916666666657" y="1593.0" />
+      <point x="-52.25" y="61.5" />
+    </edge>
+    <edge source="stickman.Entities.HeroPathState.WalkRightState" target="stickman.Entities.HeroPathState.HeroPathStateContext">
+      <point x="-80.33333333333303" y="50.0" />
+      <point x="5199.323380139795" y="1022.0" />
+      <point x="5202.225877192982" y="1022.0" />
+      <point x="5202.225877192982" y="1623.0" />
+      <point x="5177.709210526315" y="1623.0" />
+      <point x="31.649999999999636" y="-61.0" />
+    </edge>
+    <edge source="stickman.levels.LevelBuilder" target="stickman.levels.LevelImp">
+      <point x="0.0" y="-248.0" />
+      <point x="4182.740046806461" y="3759.0" />
+      <point x="3855.2915253144074" y="3759.0" />
+      <point x="-108.66666666666652" y="600.5" />
+    </edge>
+    <edge source="stickman.App" target="stickman.model.GameEngine">
+      <point x="75.75" y="-49.0" />
+      <point x="4894.584210526315" y="6174.0" />
+      <point x="5937.155922072958" y="6174.0" />
+      <point x="5937.155922072958" y="1955.0" />
+      <point x="5827.000085792813" y="1955.0" />
+      <point x="36.25" y="115.5" />
+    </edge>
+    <edge source="stickman.model.GameEngineImpl" target="stickman.levels.LevelDirector">
+      <point x="-32.5" y="-248.5" />
+      <point x="4463.240046806461" y="4810.0" />
+      <point x="4354.990046806461" y="4810.0" />
+      <point x="-41.25" y="50.0" />
+    </edge>
+    <edge source="stickman.Entities.HeroPathState.StandState" target="stickman.Entities.HeroPathState.WalkLeftState">
+      <point x="20.08333333333303" y="-105.0" />
+      <point x="5561.740046806461" y="1022.0" />
+      <point x="5550.059210526315" y="1022.0" />
+      <point x="5550.059210526315" y="489.0" />
+      <point x="5534.3983801397935" y="489.0" />
+      <point x="96.39999999999964" y="50.0" />
+    </edge>
+    <edge source="stickman.Entities.Bullet" target="stickman.Entities.Entity">
+      <point x="0.0" y="-61.5" />
+      <point x="4222.525" y="802.0" />
+      <point x="2802.3042493863404" y="802.0" />
+      <point x="73.73333333333312" y="126.5" />
+    </edge>
+    <edge source="stickman.Entities.HeroPathState.WalkRightState" target="stickman.Entities.HeroPathState.WalkLeftState">
+      <point x="30.125" y="-50.0" />
+      <point x="5309.781713473127" y="499.0" />
+      <point x="5341.598380139794" y="499.0" />
+      <point x="-96.39999999999964" y="50.0" />
+    </edge>
+    <edge source="stickman.Entities.FloorTileFactory.DefaultFloorTileFactory" target="stickman.Entities.FloorTileFactory.DefaultTopFloorTile">
+      <point x="33.44444444444434" y="-27.0" />
+      <point x="1641.4444444444443" y="3829.0" />
+      <point x="1916.5" y="3829.0" />
+      <point x="0.0" y="61.5" />
+    </edge>
+    <edge source="stickman.levels.DefaultLevelBuilder" target="stickman.Entities.Platform">
+      <point x="-104.47058823529414" y="-137.5" />
+      <point x="2692.087375774718" y="4445.0" />
+      <point x="2187.5" y="4445.0" />
+      <point x="0.0" y="61.5" />
+    </edge>
+    <edge source="stickman.Entities.FloorTileFactory.DefaultTopFloorTile" target="stickman.Entities.Entity">
+      <point x="0.0" y="-61.5" />
+      <point x="1916.5" y="972.0" />
+      <point x="2693.459804941896" y="972.0" />
+      <point x="-35.11111111111131" y="126.5" />
+    </edge>
+    <edge source="stickman.Entities.FloorTileFactory.DefaultDirtFloorTile" target="stickman.Entities.Entity.Layer">
+      <point x="-91.0" y="-61.5" />
+      <point x="915.0" y="842.0" />
+      <point x="892.0486938307854" y="842.0" />
+      <point x="892.0486938307854" y="459.0" />
+      <point x="2639.062144123183" y="459.0" />
+      <point x="-36.84210526315792" y="71.5" />
+    </edge>
+    <edge source="stickman.Entities.HeroPathState.HeroPathStateContext.Actor" target="stickman.Entities.HeroPathState.HeroPathStateContext">
+      <point x="56.399999999999636" y="72.0" />
+      <point x="4964.981063425216" y="1563.0" />
+      <point x="5093.309210526315" y="1563.0" />
+      <point x="-52.75" y="-61.0" />
+    </edge>
+    <edge source="stickman.levels.LevelBuilder" target="stickman.view.BackgroundDrawer">
+      <point x="84.85714285714312" y="-248.0" />
+      <point x="4267.597189663604" y="3859.0" />
+      <point x="6175.155922072958" y="3859.0" />
+      <point x="6175.155922072958" y="1012.0" />
+      <point x="6001.7917524594795" y="1012.0" />
+      <point x="77.875" y="38.0" />
+    </edge>
+    <edge source="stickman.levels.Level" target="stickman.Entities.Entity">
+      <point x="-39.75" y="-225.5" />
+      <point x="4691.056063425216" y="792.0" />
+      <point x="2805.815360497452" y="792.0" />
+      <point x="77.24444444444453" y="126.5" />
+    </edge>
+    <edge source="stickman.Entities.FloorTileFactory.DefaultDirtFloorTile" target="stickman.Entities.Entity">
+      <point x="0.0" y="-61.5" />
+      <point x="1006.0" y="912.0" />
+      <point x="2672.3931382752294" y="912.0" />
+      <point x="-56.17777777777792" y="126.5" />
+    </edge>
+    <edge source="stickman.Entities.Ghost" target="stickman.Entities.Entity">
+      <point x="-49.333333333333485" y="-61.5" />
+      <point x="3355.1083333333327" y="902.0" />
+      <point x="2774.2153604974515" y="902.0" />
+      <point x="45.64444444444416" y="126.5" />
+    </edge>
+    <edge source="stickman.Entities.FloorTileFactory.DefaultTopFloorTile" target="stickman.Entities.Entity.Layer">
+      <point x="-91.33333333333326" y="-61.5" />
+      <point x="1825.1666666666667" y="842.0" />
+      <point x="1802.2153604974524" y="842.0" />
+      <point x="1802.2153604974524" y="489.0" />
+      <point x="2661.1674072810774" y="489.0" />
+      <point x="-14.73684210526335" y="71.5" />
+    </edge>
+    <edge source="stickman.Entities.Platform" target="stickman.Entities.Entity.Layer">
+      <point x="-76.0" y="-61.5" />
+      <point x="2111.5" y="842.0" />
+      <point x="2088.5486938307854" y="842.0" />
+      <point x="2088.5486938307854" y="499.0" />
+      <point x="2668.535828333709" y="499.0" />
+      <point x="-7.368421052631675" y="71.5" />
+    </edge>
+    <edge source="stickman.Entities.FloorTileFactory.DefaultRightFloorTile" target="stickman.Entities.Entity.Layer">
+      <point x="-93.66666666666697" y="-61.5" />
+      <point x="615.333333333333" y="842.0" />
+      <point x="592.3820271641189" y="842.0" />
+      <point x="592.3820271641189" y="449.0" />
+      <point x="2631.693723070551" y="449.0" />
+      <point x="-44.21052631578959" y="71.5" />
+    </edge>
+    <edge source="stickman.Entities.HeroPathState.StandState" target="stickman.Entities.HeroPathState.HeroPathStateContext">
+      <point x="60.25" y="105.0" />
+      <point x="5601.906713473127" y="1653.0" />
+      <point x="5241.009210526315" y="1653.0" />
+      <point x="94.94999999999982" y="-61.0" />
+    </edge>
+    <edge source="stickman.levels.LevelImp" target="stickman.Entities.Subject">
+      <point x="-17.157894736841627" y="-600.5" />
+      <point x="3946.8002972442328" y="2408.0" />
+      <point x="3894.8583333333327" y="2408.0" />
+      <point x="54.333333333333485" y="49.0" />
+    </edge>
+    <edge source="stickman.levels.LevelImp" target="stickman.view.BackgroundDrawer">
+      <point x="154.42105263157964" y="-600.5" />
+      <point x="4118.379244612654" y="2498.0" />
+      <point x="6153.155922072958" y="2498.0" />
+      <point x="6153.155922072958" y="1032.0" />
+      <point x="5957.2917524594795" y="1032.0" />
+      <point x="33.375" y="38.0" />
+    </edge>
+    <edge source="stickman.Entities.FloorTileFactory.FloorTileFactory.Path" target="stickman.Entities.FloorTileFactory.FloorTileFactory">
+      <point x="-34.25" y="-104.5" />
+      <point x="2573.636111111111" y="2498.0" />
+      <point x="2555.011111111111" y="2498.0" />
+      <point x="-37.625" y="38.0" />
+    </edge>
+    <edge source="stickman.Entities.FloorTileFactory.DefaultLeftFloorTile" target="stickman.Entities.Entity">
+      <point x="0.0" y="-61.5" />
+      <point x="1299.5" y="932.0" />
+      <point x="2679.4153604974517" y="932.0" />
+      <point x="-49.155555555555566" y="126.5" />
+    </edge>
+    <edge source="stickman.Entities.HeroPathState.HeroPathStateContext" target="stickman.Entities.HeroPathState.HeroPathStateContext.Actor">
+      <point x="-94.94999999999982" y="-61.0" />
+      <point x="5051.109210526315" y="1583.0" />
+      <point x="4908.581063425217" y="1583.0" />
+      <point x="0.0" y="72.0" />
+    </edge>
+    <edge source="stickman.Entities.Entity" target="stickman.Entities.Entity.Layer">
+      <point x="-52.666666666666515" y="-126.5" />
+      <point x="0.0" y="71.5" />
+    </edge>
+    <edge source="stickman.Entities.Slime" target="stickman.Entities.Entity">
+      <point x="-62.0" y="-171.5" />
+      <point x="2907.1527777777774" y="1935.0" />
+      <point x="2937.4733314068485" y="1935.0" />
+      <point x="2937.4733314068485" y="1002.0" />
+      <point x="2739.1042493863406" y="1002.0" />
+      <point x="10.533333333333303" y="126.5" />
+    </edge>
+    <edge source="stickman.levels.DefaultLevelBuilder" target="stickman.view.SkyOnlyBackground">
+      <point x="139.294117647059" y="-137.5" />
+      <point x="2935.8520816570713" y="4465.0" />
+      <point x="5738.250085792813" y="4465.0" />
+      <point x="46.0" y="71.5" />
+    </edge>
+    <edge source="stickman.Entities.Bullet" target="stickman.Entities.Entity.Layer">
+      <point x="49.0" y="-61.5" />
+      <point x="4271.525" y="1052.0" />
+      <point x="4237.312415227513" y="1052.0" />
+      <point x="4237.312415227513" y="439.0" />
+      <point x="2727.4831967547616" y="439.0" />
+      <point x="51.57894736842081" y="71.5" />
+    </edge>
+    <edge source="stickman.Entities.HeroPathState.WalkLeftState" target="stickman.Entities.HeroPathState.WalkRightState">
+      <point x="-48.19999999999982" y="50.0" />
+      <point x="5389.798380139794" y="499.0" />
+      <point x="5370.031713473127" y="499.0" />
+      <point x="90.375" y="-50.0" />
+    </edge>
+    <edge source="stickman.model.GameEngine" target="stickman.levels.Level">
+      <point x="-36.25" y="-115.5" />
+      <point x="5754.500085792813" y="1543.0" />
+      <point x="4801.472730091884" y="1543.0" />
+      <point x="70.66666666666697" y="225.5" />
+    </edge>
+    <edge source="stickman.levels.LevelDirector" target="stickman.levels.Level">
+      <point x="55.0" y="-50.0" />
+      <point x="4451.240046806461" y="4445.0" />
+      <point x="4622.114255406292" y="4445.0" />
+      <point x="4622.114255406292" y="3839.0" />
+      <point x="4704.114255406292" y="3839.0" />
+      <point x="4704.114255406292" y="1613.0" />
+      <point x="4695.472730091884" y="1613.0" />
+      <point x="-35.33333333333303" y="225.5" />
+    </edge>
+    <edge source="stickman.view.SkyOnlyBackground" target="stickman.view.BackgroundDrawer">
+      <point x="-61.33333333333303" y="-71.5" />
+      <point x="5630.9167524594795" y="2015.0" />
+      <point x="5672.656713473127" y="2015.0" />
+      <point x="5672.656713473127" y="1042.0" />
+      <point x="5868.2917524594795" y="1042.0" />
+      <point x="-55.625" y="38.0" />
+    </edge>
+    <edge source="stickman.levels.Level" target="stickman.view.BackgroundDrawer">
+      <point x="39.75" y="-225.5" />
+      <point x="4770.556063425216" y="1032.0" />
+      <point x="5846.0417524594795" y="1032.0" />
+      <point x="-77.875" y="38.0" />
+    </edge>
+    <edge source="stickman.levels.DefaultLevelBuilder" target="stickman.Entities.Entity">
+      <point x="-52.235294117646845" y="-137.5" />
+      <point x="2744.3226698923654" y="4455.0" />
+      <point x="2757.147222222222" y="4455.0" />
+      <point x="2757.147222222222" y="1032.0" />
+      <point x="2728.5709160530073" y="1032.0" />
+      <point x="0.0" y="126.5" />
+    </edge>
+    <edge source="stickman.model.GameEngineImpl" target="stickman.Entities.Ghost">
+      <point x="-58.5" y="-248.5" />
+      <point x="4437.240046806461" y="4830.0" />
+      <point x="3877.9067134731276" y="4830.0" />
+      <point x="3877.9067134731276" y="3799.0" />
+      <point x="3447.454167686994" y="3799.0" />
+      <point x="3447.454167686994" y="1603.0" />
+      <point x="3355.1083333333327" y="1603.0" />
+      <point x="-49.333333333333485" y="61.5" />
+    </edge>
+    <edge source="stickman.levels.DefaultLevelBuilder" target="stickman.Entities.FloorTileFactory.DefaultFloorTileFactory">
+      <point x="-121.88235294117658" y="-137.5" />
+      <point x="2674.6756110688357" y="4455.0" />
+      <point x="1608.0" y="4455.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="stickman.App" target="stickman.view.GameWindow">
+      <point x="-25.25" y="-49.0" />
+      <point x="4793.584210526315" y="6174.0" />
+      <point x="4767.834210526315" y="6174.0" />
+      <point x="-51.0" y="204.5" />
+    </edge>
+    <edge source="stickman.levels.DefaultLevelBuilder" target="stickman.Entities.Tree">
+      <point x="-139.29411764705856" y="-137.5" />
+      <point x="2657.2638463629537" y="4465.0" />
+      <point x="115.0" y="4465.0" />
+      <point x="0.0" y="61.5" />
+    </edge>
+    <edge source="stickman.view.GameWindow" target="stickman.view.KeyboardInputHandler">
+      <point x="30.600000000000364" y="-204.5" />
+      <point x="4849.434210526315" y="5690.0" />
+      <point x="5743.055922072957" y="5690.0" />
+      <point x="-52.25" y="116.0" />
+    </edge>
+    <edge source="stickman.Entities.FloorTileFactory.DefaultFloorTileFactory" target="stickman.Entities.Entity">
+      <point x="66.88888888888869" y="-27.0" />
+      <point x="1674.8888888888887" y="3839.0" />
+      <point x="2021.4369751976983" y="3839.0" />
+      <point x="2021.4369751976983" y="2488.0" />
+      <point x="2312.0" y="2488.0" />
+      <point x="2312.0" y="1012.0" />
+      <point x="2707.5042493863407" y="1012.0" />
+      <point x="-21.066666666666606" y="126.5" />
+    </edge>
+    <edge source="stickman.view.GameWindow" target="stickman.Entities.Entity">
+      <point x="-30.600000000000364" y="-204.5" />
+      <point x="4788.234210526314" y="5690.0" />
+      <point x="2581.3916666666664" y="5690.0" />
+      <point x="2581.3916666666664" y="3859.0" />
+      <point x="2753.636111111111" y="3859.0" />
+      <point x="2753.636111111111" y="1042.0" />
+      <point x="2725.0598049418963" y="1042.0" />
+      <point x="-3.5111111111109494" y="126.5" />
+    </edge>
+    <edge source="stickman.view.SkyOnlyBackground" target="stickman.model.GameEngine">
+      <point x="0.0" y="-71.5" />
+      <point x="5692.250085792813" y="2015.0" />
+      <point x="5725.500085792813" y="2015.0" />
+      <point x="-65.25" y="115.5" />
+    </edge>
+    <edge source="stickman.Entities.Slime" target="stickman.Entities.Subject">
+      <point x="82.66666666666652" y="-171.5" />
+      <point x="3051.819444444444" y="2015.0" />
+      <point x="3786.1916666666657" y="2015.0" />
+      <point x="-54.333333333333485" y="49.0" />
+    </edge>
+    <edge source="stickman.Entities.FloorTileFactory.FloorTileFactory" target="stickman.Entities.Entity">
+      <point x="0.0" y="-38.0" />
+      <point x="2592.636111111111" y="1052.0" />
+      <point x="2721.548693830785" y="1052.0" />
+      <point x="-7.022222222222354" y="126.5" />
+    </edge>
+    <edge source="stickman.levels.DefaultLevelBuilder" target="stickman.Entities.FloorTileFactory.FloorTileFactory">
+      <point x="-69.64705882352928" y="-137.5" />
+      <point x="2726.910905186483" y="4425.0" />
+      <point x="2686.886111111111" y="4425.0" />
+      <point x="2686.886111111111" y="2498.0" />
+      <point x="2705.511111111111" y="2498.0" />
+      <point x="112.875" y="38.0" />
+    </edge>
+    <edge source="stickman.Entities.FloorTileFactory.DefaultFloorTileFactory" target="stickman.Entities.FloorTileFactory.FloorTileFactory">
+      <point x="100.33333333333326" y="-27.0" />
+      <point x="1708.3333333333333" y="3849.0" />
+      <point x="2251.5055555555555" y="3849.0" />
+      <point x="2251.5055555555555" y="2498.0" />
+      <point x="2479.761111111111" y="2498.0" />
+      <point x="-112.875" y="38.0" />
+    </edge>
+    <edge source="stickman.Entities.YouWinBanner" target="stickman.Entities.Entity">
+      <point x="-62.0" y="-61.5" />
+      <point x="3974.024999999999" y="832.0" />
+      <point x="2791.770916053007" y="832.0" />
+      <point x="63.19999999999982" y="126.5" />
+    </edge>
+    <edge source="stickman.view.BlockedBackground" target="stickman.view.BackgroundDrawer">
+      <point x="61.33333333333303" y="-82.5" />
+      <point x="6100.989255406291" y="1925.0" />
+      <point x="5973.5417524594795" y="1925.0" />
+      <point x="5973.5417524594795" y="1052.0" />
+      <point x="5912.7917524594795" y="1052.0" />
+      <point x="-11.125" y="38.0" />
+    </edge>
+    <edge source="stickman.levels.LevelImp" target="stickman.Entities.Mushroom">
+      <point x="-34.31578947368371" y="-600.5" />
+      <point x="3929.64240250739" y="2418.0" />
+      <point x="3802.774999999999" y="2418.0" />
+      <point x="59.75" y="105.5" />
+    </edge>
+    <edge source="stickman.model.GameEngineImpl" target="stickman.levels.LevelImp">
+      <point x="-45.5" y="-248.5" />
+      <point x="4450.240046806461" y="4820.0" />
+      <point x="4303.240046806461" y="4820.0" />
+      <point x="4303.240046806461" y="3749.0" />
+      <point x="3963.9581919810744" y="3749.0" />
+      <point x="0.0" y="600.5" />
+    </edge>
+    <edge source="stickman.Entities.Hero" target="stickman.Entities.Entity">
+      <point x="-95.0" y="-171.5" />
+      <point x="4365.306063425216" y="1965.0" />
+      <point x="3319.9416666666657" y="1965.0" />
+      <point x="3319.9416666666657" y="912.0" />
+      <point x="2770.7042493863405" y="912.0" />
+      <point x="42.13333333333321" y="126.5" />
+    </edge>
+    <edge source="stickman.Entities.HeroPathState.WalkLeftState" target="stickman.Entities.HeroPathState.StandState">
+      <point x="48.19999999999982" y="50.0" />
+      <point x="5486.198380139794" y="499.0" />
+      <point x="5539.059210526315" y="499.0" />
+      <point x="5539.059210526315" y="1022.0" />
+      <point x="5521.573380139795" y="1022.0" />
+      <point x="-20.08333333333303" y="-105.0" />
+    </edge>
+    <edge source="stickman.Entities.FloorTileFactory.DefaultLeftFloorTile" target="stickman.Entities.Entity.Layer">
+      <point x="-91.33333333333303" y="-61.5" />
+      <point x="1208.166666666667" y="842.0" />
+      <point x="1185.215360497452" y="842.0" />
+      <point x="1185.215360497452" y="469.0" />
+      <point x="2646.4305651758145" y="469.0" />
+      <point x="-29.473684210526244" y="71.5" />
+    </edge>
+    <edge source="stickman.levels.DefaultLevelBuilder" target="stickman.Entities.FloorTileFactory.FloorTileFactory.Path">
+      <point x="-87.05882352941171" y="-137.5" />
+      <point x="2709.4991404806005" y="4435.0" />
+      <point x="2642.136111111111" y="4435.0" />
+      <point x="34.25" y="104.5" />
+    </edge>
+    <edge source="stickman.model.GameEngineImpl" target="stickman.Entities.Entity">
+      <point x="-71.5" y="-248.5" />
+      <point x="4424.240046806461" y="4840.0" />
+      <point x="2955.0579640100123" y="4840.0" />
+      <point x="2955.0579640100123" y="2468.0" />
+      <point x="2854.6527777777774" y="2468.0" />
+      <point x="2854.6527777777774" y="1022.0" />
+      <point x="2732.0820271641182" y="1022.0" />
+      <point x="3.5111111111109494" y="126.5" />
+    </edge>
+    <edge source="stickman.levels.LevelImp" target="stickman.Entities.Bullet">
+      <point x="68.63157894736878" y="-600.5" />
+      <point x="4032.5897709284427" y="2438.0" />
+      <point x="4228.025" y="2438.0" />
+      <point x="4228.025" y="1653.0" />
+      <point x="4259.275" y="1653.0" />
+      <point x="36.75" y="61.5" />
+    </edge>
+    <edge source="stickman.model.GameEngineImpl" target="stickman.levels.DefaultLevelBuilder">
+      <point x="-84.5" y="-248.5" />
+      <point x="4411.240046806461" y="4850.0" />
+      <point x="2796.5579640100123" y="4850.0" />
+      <point x="0.0" y="137.5" />
+    </edge>
+    <edge source="stickman.Entities.Slime" target="stickman.Entities.Entity.Layer">
+      <point x="20.666666666666515" y="-171.5" />
+      <point x="2989.819444444444" y="1985.0" />
+      <point x="3268.919444444444" y="1985.0" />
+      <point x="3268.919444444444" y="1613.0" />
+      <point x="3717.9416666666657" y="1613.0" />
+      <point x="3717.9416666666657" y="459.0" />
+      <point x="2712.7463546494987" y="459.0" />
+      <point x="36.84210526315792" y="71.5" />
+    </edge>
+    <edge source="stickman.model.Memento" target="stickman.levels.LevelImp">
+      <point x="-95.33333333333303" y="-127.0" />
+      <point x="4696.530922072959" y="3739.0" />
+      <point x="4072.6248586477404" y="3739.0" />
+      <point x="108.66666666666652" y="600.5" />
+    </edge>
+    <edge source="stickman.Entities.FloorTileFactory.DefaultRightCornerFloorTile" target="stickman.Entities.Entity.Layer">
+      <point x="-103.0" y="-61.5" />
+      <point x="291.0" y="842.0" />
+      <point x="268.0486938307854" y="842.0" />
+      <point x="268.0486938307854" y="439.0" />
+      <point x="2624.3253020179195" y="439.0" />
+      <point x="-51.57894736842127" y="71.5" />
+    </edge>
+    <edge source="stickman.Entities.Mushroom" target="stickman.Entities.Entity">
+      <point x="-99.58333333333348" y="-105.5" />
+      <point x="3643.4416666666657" y="1985.0" />
+      <point x="3305.4305555555547" y="1985.0" />
+      <point x="3305.4305555555547" y="932.0" />
+      <point x="2763.682027164118" y="932.0" />
+      <point x="35.11111111111086" y="126.5" />
+    </edge>
+    <edge source="stickman.Entities.FloorTileFactory.FloorTileFactory" target="stickman.Entities.FloorTileFactory.FloorTileFactory.Path">
+      <point x="37.625" y="38.0" />
+      <point x="2630.261111111111" y="2498.0" />
+      <point x="2642.136111111111" y="2498.0" />
+      <point x="34.25" y="-104.5" />
+    </edge>
+    <edge source="stickman.Entities.Flag" target="stickman.Entities.Entity">
+      <point x="-69.66666666666652" y="-61.5" />
+      <point x="3533.2749999999996" y="872.0" />
+      <point x="2781.237582719674" y="872.0" />
+      <point x="52.666666666666515" y="126.5" />
+    </edge>
+    <edge source="stickman.Entities.HeroPathState.StandState" target="stickman.Entities.HeroPathState.WalkRightState">
+      <point x="-100.41666666666697" y="-105.0" />
+      <point x="5441.240046806461" y="1022.0" />
+      <point x="5279.656713473127" y="1022.0" />
+      <point x="0.0" y="50.0" />
+    </edge>
+    <edge source="stickman.levels.DefaultLevelBuilder" target="stickman.Entities.Mushroom">
+      <point x="34.823529411764866" y="-137.5" />
+      <point x="2831.381493421777" y="4405.0" />
+      <point x="3539.847502946812" y="4405.0" />
+      <point x="3539.847502946812" y="3859.0" />
+      <point x="3606.232314788092" y="3859.0" />
+      <point x="3606.232314788092" y="2498.0" />
+      <point x="3683.274999999999" y="2498.0" />
+      <point x="-59.75" y="105.5" />
+    </edge>
+    <edge source="stickman.App" target="stickman.model.GameEngineImpl">
+      <point x="-75.75" y="-49.0" />
+      <point x="4743.084210526315" y="6174.0" />
+      <point x="4450.240046806461" y="6174.0" />
+      <point x="-45.5" y="248.5" />
+    </edge>
+    <edge source="stickman.levels.LevelImp" target="stickman.Entities.Hero">
+      <point x="85.78947368421086" y="-600.5" />
+      <point x="4049.7476656652852" y="2448.0" />
+      <point x="4374.806063425216" y="2448.0" />
+      <point x="-85.5" y="171.5" />
+    </edge>
+    <edge source="stickman.Entities.FloorTileFactory.DefaultFloorTileFactory" target="stickman.Entities.FloorTileFactory.DefaultDirtFloorTile">
+      <point x="-66.88888888888869" y="-27.0" />
+      <point x="1541.1111111111113" y="3839.0" />
+      <point x="1006.0" y="3839.0" />
+      <point x="0.0" y="61.5" />
+    </edge>
+    <edge source="stickman.Entities.Hero" target="stickman.Entities.HeroPathState.HeroPathStateContext">
+      <point x="57.0" y="-171.5" />
+      <point x="4517.306063425216" y="2005.0" />
+      <point x="5075.725877192982" y="2005.0" />
+      <point x="-70.33333333333303" y="61.0" />
+    </edge>
+    <edge source="stickman.levels.LevelImp" target="stickman.levels.Level">
+      <point x="102.94736842105294" y="-600.5" />
+      <point x="4066.905560402127" y="2468.0" />
+      <point x="4682.114255406292" y="2468.0" />
+      <point x="4682.114255406292" y="1633.0" />
+      <point x="4660.13939675855" y="1633.0" />
+      <point x="-70.66666666666697" y="225.5" />
+    </edge>
+    <edge source="stickman.levels.DefaultLevelBuilder" target="stickman.Entities.Slime.Colour">
+      <point x="-34.823529411764866" y="-137.5" />
+      <point x="2761.7344345982474" y="4465.0" />
+      <point x="2768.147222222222" y="4465.0" />
+      <point x="2768.147222222222" y="2478.0" />
+      <point x="2865.6527777777774" y="2478.0" />
+      <point x="2865.6527777777774" y="1945.0" />
+      <point x="3130.669444444444" y="1945.0" />
+      <point x="-54.75" y="116.0" />
+    </edge>
+    <edge source="stickman.Entities.FloorTileFactory.DefaultFloorTileFactory" target="stickman.Entities.FloorTileFactory.DefaultLeftFloorTile">
+      <point x="-33.44444444444434" y="-27.0" />
+      <point x="1574.5555555555557" y="3829.0" />
+      <point x="1299.5" y="3829.0" />
+      <point x="0.0" y="61.5" />
+    </edge>
+    <edge source="stickman.Entities.Hero" target="stickman.Entities.Entity.Layer">
+      <point x="-19.0" y="-171.5" />
+      <point x="4441.306063425216" y="2015.0" />
+      <point x="4454.806063425216" y="2015.0" />
+      <point x="4454.806063425216" y="419.0" />
+      <point x="2742.220038860025" y="419.0" />
+      <point x="66.31578947368416" y="71.5" />
+    </edge>
+    <edge source="stickman.levels.DefaultLevelBuilder" target="stickman.Entities.HeroPathState.HeroPathStateContext.Actor">
+      <point x="104.47058823529414" y="-137.5" />
+      <point x="2901.0285522453064" y="4445.0" />
+      <point x="4292.240046806461" y="4445.0" />
+      <point x="4292.240046806461" y="3819.0" />
+      <point x="4671.114255406292" y="3819.0" />
+      <point x="4671.114255406292" y="1653.0" />
+      <point x="4880.381063425217" y="1653.0" />
+      <point x="-28.199999999999818" y="72.0" />
+    </edge>
+    <edge source="stickman.Entities.HeroPathState.HeroPathStateContext" target="stickman.Entities.HeroPathState.ImagePathState">
+      <point x="-31.649999999999636" y="-61.0" />
+      <point x="5114.409210526315" y="1553.0" />
+      <point x="4989.581063425217" y="1553.0" />
+      <point x="4989.581063425217" y="236.0" />
+      <point x="5094.944810961847" y="236.0" />
+      <point x="-107.11111111111131" y="83.0" />
+    </edge>
+    <edge source="stickman.model.GameEngineImpl" target="stickman.model.GameEngine">
+      <point x="84.5" y="-248.5" />
+      <point x="4580.240046806461" y="4850.0" />
+      <point x="5794.750085792813" y="4850.0" />
+      <point x="5794.750085792813" y="2005.0" />
+      <point x="5754.500085792813" y="2005.0" />
+      <point x="-36.25" y="115.5" />
+    </edge>
+    <edge source="stickman.model.GameEngineImpl" target="stickman.levels.Level">
+      <point x="71.5" y="-248.5" />
+      <point x="4567.240046806461" y="4840.0" />
+      <point x="4997.458419126146" y="4840.0" />
+      <point x="4997.458419126146" y="1603.0" />
+      <point x="4766.13939675855" y="1603.0" />
+      <point x="35.33333333333303" y="225.5" />
+    </edge>
+    <edge source="stickman.levels.LevelImp" target="stickman.Entities.Ghost">
+      <point x="-68.63157894736787" y="-600.5" />
+      <point x="3895.326613033706" y="2438.0" />
+      <point x="3469.454167686994" y="2438.0" />
+      <point x="3469.454167686994" y="1583.0" />
+      <point x="3453.7749999999996" y="1583.0" />
+      <point x="49.333333333333485" y="61.5" />
+    </edge>
+    <edge source="stickman.Entities.Tree" target="stickman.Entities.Entity.Layer">
+      <point x="-69.66666666666652" y="-61.5" />
+      <point x="45.333333333333485" y="842.0" />
+      <point x="120.28785239068111" y="842.0" />
+      <point x="120.28785239068111" y="429.0" />
+      <point x="2616.9568809652883" y="429.0" />
+      <point x="-58.94736842105249" y="71.5" />
+    </edge>
+    <edge source="stickman.view.EntityViewImpl" target="stickman.Entities.Entity">
+      <point x="22.25" y="-116.5" />
+      <point x="2209.622829744198" y="5397.0" />
+      <point x="2326.511111111111" y="5397.0" />
+      <point x="2326.511111111111" y="1032.0" />
+      <point x="2714.526471608563" y="1032.0" />
+      <point x="-14.044444444444252" y="126.5" />
+    </edge>
+    <edge source="stickman.levels.LevelImp" target="stickman.Entities.YouWinBanner">
+      <point x="34.31578947368462" y="-600.5" />
+      <point x="3998.2739814547585" y="2418.0" />
+      <point x="4041.524999999999" y="2418.0" />
+      <point x="4041.524999999999" y="1653.0" />
+      <point x="4082.524999999999" y="1653.0" />
+      <point x="46.5" y="61.5" />
+    </edge>
+    <edge source="stickman.view.EntityView" target="stickman.Entities.Entity">
+      <point x="0.0" y="-71.5" />
+      <point x="2431.636111111111" y="1042.0" />
+      <point x="2718.037582719674" y="1042.0" />
+      <point x="-10.533333333333303" y="126.5" />
+    </edge>
+    <edge source="stickman.Entities.HeroPathState.ImagePathState" target="stickman.Entities.HeroPathState.HeroPathStateContext">
+      <point x="-80.33333333333303" y="83.0" />
+      <point x="5121.722588739625" y="236.0" />
+      <point x="5137.656713473127" y="236.0" />
+      <point x="5137.656713473127" y="1653.0" />
+      <point x="5135.509210526315" y="1653.0" />
+      <point x="-10.550000000000182" y="-61.0" />
+    </edge>
+    <edge source="stickman.Entities.FloorTileFactory.DefaultFloorTileFactory" target="stickman.Entities.FloorTileFactory.FloorTileFactory.Path">
+      <point x="133.77777777777783" y="-27.0" />
+      <point x="1741.7777777777778" y="3859.0" />
+      <point x="2573.636111111111" y="3859.0" />
+      <point x="-34.25" y="104.5" />
+    </edge>
+    <edge source="stickman.model.Memento" target="stickman.levels.Level">
+      <point x="95.33333333333303" y="-127.0" />
+      <point x="4887.197588739625" y="3839.0" />
+      <point x="4884.584210526315" y="3839.0" />
+      <point x="4884.584210526315" y="1623.0" />
+      <point x="4730.806063425216" y="1623.0" />
+      <point x="0.0" y="225.5" />
+    </edge>
+    <edge source="stickman.Entities.Entity.Layer" target="stickman.Entities.Entity">
+      <point x="14.73684210526335" y="71.5" />
+      <point x="2690.641091491604" y="489.0" />
+      <point x="2781.237582719674" y="489.0" />
+      <point x="52.666666666666515" y="-126.5" />
+    </edge>
+    <edge source="stickman.Entities.HeroPathState.WalkRightState" target="stickman.Entities.HeroPathState.ImagePathState">
+      <point x="-30.125" y="-50.0" />
+      <point x="5249.531713473127" y="226.0" />
+      <point x="5202.055922072958" y="226.0" />
+      <point x="0.0" y="83.0" />
+    </edge>
+    <edge source="stickman.levels.DefaultLevelBuilder" target="stickman.Entities.Hero">
+      <point x="52.235294117646845" y="-137.5" />
+      <point x="2848.793258127659" y="4415.0" />
+      <point x="3866.9067134731276" y="4415.0" />
+      <point x="3866.9067134731276" y="3809.0" />
+      <point x="4327.334210526315" y="3809.0" />
+      <point x="4327.334210526315" y="2458.0" />
+      <point x="4431.806063425216" y="2458.0" />
+      <point x="-28.5" y="171.5" />
+    </edge>
+    <edge source="stickman.levels.LevelBuilder" target="stickman.levels.Level">
+      <point x="28.285714285714675" y="-248.0" />
+      <point x="4211.025761092175" y="3829.0" />
+      <point x="4693.114255406292" y="3829.0" />
+      <point x="4693.114255406292" y="1623.0" />
+      <point x="4677.806063425216" y="1623.0" />
+      <point x="-53.0" y="225.5" />
+    </edge>
+    <edge source="stickman.levels.DefaultLevelBuilder" target="stickman.Entities.Slime">
+      <point x="-17.411764705882433" y="-137.5" />
+      <point x="2779.14619930413" y="4455.0" />
+      <point x="2796.1527777777774" y="4455.0" />
+      <point x="2796.1527777777774" y="2488.0" />
+      <point x="2907.1527777777774" y="2488.0" />
+      <point x="-62.0" y="171.5" />
+    </edge>
+    <edge source="stickman.Entities.HeroPathState.StandState" target="stickman.Entities.HeroPathState.ImagePathState">
+      <point x="100.41666666666697" y="-105.0" />
+      <point x="5642.073380139795" y="1022.0" />
+      <point x="5669.705043859649" y="1022.0" />
+      <point x="5669.705043859649" y="186.0" />
+      <point x="5309.16703318407" y="186.0" />
+      <point x="107.11111111111131" y="83.0" />
+    </edge>
+    <edge source="stickman.view.GameWindow" target="stickman.view.EntityViewImpl">
+      <point x="-91.80000000000018" y="-204.5" />
+      <point x="4727.034210526315" y="5720.0" />
+      <point x="2187.372829744198" y="5720.0" />
+      <point x="0.0" y="116.5" />
+    </edge>
+    <edge source="stickman.Entities.Mushroom" target="stickman.levels.Observer">
+      <point x="-19.916666666666515" y="-105.5" />
+      <point x="3723.1083333333327" y="2005.0" />
+      <point x="3737.524999999999" y="2005.0" />
+      <point x="3737.524999999999" y="1643.0" />
+      <point x="3778.0249999999996" y="1643.0" />
+      <point x="-9.916666666666515" y="27.0" />
+    </edge>
+    <edge source="stickman.model.CareTaker" target="stickman.model.Memento">
+      <point x="-40.0" y="-49.5" />
+      <point x="4751.864255406292" y="4445.0" />
+      <point x="4756.114255406292" y="4445.0" />
+      <point x="-35.75" y="127.0" />
+    </edge>
+    <edge source="stickman.Entities.FloorTileFactory.DefaultLeftCornerFloorTile" target="stickman.Entities.Entity.Layer">
+      <point x="-101.0" y="-61.5" />
+      <point x="1507.0" y="842.0" />
+      <point x="1484.0486938307854" y="842.0" />
+      <point x="1484.0486938307854" y="479.0" />
+      <point x="2653.798986228446" y="479.0" />
+      <point x="-22.10526315789457" y="71.5" />
+    </edge>
+    <edge source="stickman.levels.LevelDirector" target="stickman.levels.LevelBuilder">
+      <point x="-55.0" y="-50.0" />
+      <point x="4341.240046806461" y="4435.0" />
+      <point x="4207.490046806461" y="4435.0" />
+      <point x="24.75" y="248.0" />
+    </edge>
+    <edge source="stickman.Entities.Hero" target="stickman.Entities.HeroPathState.HeroPathStateContext.Actor">
+      <point x="19.0" y="-171.5" />
+      <point x="4479.306063425216" y="2015.0" />
+      <point x="4507.008419126147" y="2015.0" />
+      <point x="4507.008419126147" y="1643.0" />
+      <point x="4852.181063425217" y="1643.0" />
+      <point x="-56.399999999999636" y="72.0" />
+    </edge>
+    <edge source="stickman.Entities.FloorTileFactory.DefaultRightFloorTile" target="stickman.Entities.Entity">
+      <point x="93.66666666666663" y="-61.5" />
+      <point x="802.6666666666665" y="902.0" />
+      <point x="2668.8820271641184" y="902.0" />
+      <point x="-59.68888888888887" y="126.5" />
+    </edge>
+    <edge source="stickman.view.GameWindow" target="stickman.model.GameEngine">
+      <point x="71.39999999999964" y="-204.5" />
+      <point x="4890.234210526314" y="5710.0" />
+      <point x="5910.305922072957" y="5710.0" />
+      <point x="5910.305922072957" y="1975.0" />
+      <point x="5798.000085792813" y="1975.0" />
+      <point x="7.25" y="115.5" />
+    </edge>
+    <edge source="stickman.view.GameWindow" target="stickman.view.EntityView">
+      <point x="-51.0" y="-204.5" />
+      <point x="4767.834210526315" y="5700.0" />
+      <point x="2466.802777777778" y="5700.0" />
+      <point x="2466.802777777778" y="5407.0" />
+      <point x="2490.9694444444444" y="5407.0" />
+      <point x="59.333333333333485" y="71.5" />
+    </edge>
+    <edge source="stickman.view.EntityViewImpl" target="stickman.Entities.Entity.Layer">
+      <point x="-66.75" y="-116.5" />
+      <point x="2120.622829744198" y="5407.0" />
+      <point x="0.0" y="5407.0" />
+      <point x="0.0" y="419.0" />
+      <point x="2609.5884599126566" y="419.0" />
+      <point x="-66.31578947368416" y="71.5" />
+    </edge>
+    <edge source="stickman.model.GameEngineImpl" target="stickman.model.CareTaker">
+      <point x="19.5" y="-248.5" />
+      <point x="4515.240046806461" y="4800.0" />
+      <point x="4751.864255406292" y="4800.0" />
+      <point x="-40.0" y="49.5" />
+    </edge>
+    <edge source="stickman.levels.DefaultLevelBuilder" target="stickman.Entities.HeroPathState.HeroPathStateContext">
+      <point x="121.88235294117658" y="-137.5" />
+      <point x="2918.440316951189" y="4455.0" />
+      <point x="5216.392543859648" y="4455.0" />
+      <point x="70.33333333333303" y="61.0" />
+    </edge>
+    <edge source="stickman.Entities.HeroPathState.WalkRightState" target="stickman.Entities.HeroPathState.StandState">
+      <point x="80.33333333333303" y="50.0" />
+      <point x="5359.990046806461" y="1012.0" />
+      <point x="5481.406713473127" y="1012.0" />
+      <point x="-60.25" y="-105.0" />
+    </edge>
+    <edge source="stickman.Entities.FloorTileFactory.DefaultFloorTileFactory" target="stickman.Entities.FloorTileFactory.DefaultRightCornerFloorTile">
+      <point x="-133.77777777777783" y="-27.0" />
+      <point x="1474.2222222222222" y="3859.0" />
+      <point x="394.0" y="3859.0" />
+      <point x="0.0" y="61.5" />
+    </edge>
+    <edge source="stickman.Entities.Slime.Colour" target="stickman.Entities.Slime">
+      <point x="54.75" y="116.0" />
+      <point x="3240.169444444444" y="1975.0" />
+      <point x="2969.1527777777774" y="1975.0" />
+      <point x="0.0" y="-171.5" />
+    </edge>
+    <edge source="stickman.levels.LevelImp" target="stickman.Entities.Entity">
+      <point x="-102.94736842105203" y="-600.5" />
+      <point x="3861.010823560022" y="2458.0" />
+      <point x="3301.919444444444" y="2458.0" />
+      <point x="3301.919444444444" y="942.0" />
+      <point x="2760.170916053007" y="942.0" />
+      <point x="31.59999999999991" y="126.5" />
+    </edge>
+    <edge source="stickman.view.BlockedBackground" target="stickman.model.GameEngine">
+      <point x="-61.33333333333303" y="-82.5" />
+      <point x="5978.322588739625" y="1945.0" />
+      <point x="5841.500085792813" y="1945.0" />
+      <point x="50.75" y="115.5" />
+    </edge>
+    <edge source="stickman.Entities.Ghost" target="stickman.Entities.Entity.Layer">
+      <point x="49.333333333333485" y="-61.5" />
+      <point x="3453.7749999999996" y="882.0" />
+      <point x="3407.704167686994" y="882.0" />
+      <point x="3407.704167686994" y="479.0" />
+      <point x="2698.0095125442353" y="479.0" />
+      <point x="22.10526315789457" y="71.5" />
+    </edge>
+    <edge source="stickman.view.BackgroundDrawer" target="stickman.model.GameEngine">
+      <point x="-33.375" y="38.0" />
+      <point x="5890.5417524594795" y="1052.0" />
+      <point x="5827.000085792813" y="1052.0" />
+      <point x="36.25" y="-115.5" />
+    </edge>
+    <edge source="stickman.Entities.Subject" target="stickman.levels.Observer">
+      <point x="0.0" y="-49.0" />
+      <point x="3840.524999999999" y="1653.0" />
+      <point x="3817.6916666666657" y="1653.0" />
+      <point x="29.75" y="27.0" />
+    </edge>
+    <edge source="stickman.Entities.Slime" target="stickman.Entities.Slime.Colour">
+      <point x="-41.333333333333485" y="-171.5" />
+      <point x="2927.819444444444" y="1955.0" />
+      <point x="3167.169444444444" y="1955.0" />
+      <point x="-18.25" y="116.0" />
+    </edge>
+    <edge source="stickman.Entities.Platform" target="stickman.Entities.Entity">
+      <point x="76.0" y="-61.5" />
+      <point x="2263.5" y="1002.0" />
+      <point x="2703.9931382752297" y="1002.0" />
+      <point x="-24.577777777777555" y="126.5" />
+    </edge>
+    <edge source="stickman.Entities.Flag" target="stickman.Entities.Entity.Layer">
+      <point x="69.66666666666652" y="-61.5" />
+      <point x="3672.6083333333327" y="852.0" />
+      <point x="3591.371625753829" y="852.0" />
+      <point x="3591.371625753829" y="469.0" />
+      <point x="2705.377933596867" y="469.0" />
+      <point x="29.473684210526244" y="71.5" />
+    </edge>
+    <edge source="stickman.view.KeyboardInputHandler" target="stickman.model.GameEngineImpl">
+      <point x="-69.66666666666697" y="-116.0" />
+      <point x="5725.639255406291" y="5407.0" />
+      <point x="4541.240046806461" y="5407.0" />
+      <point x="45.5" y="248.5" />
+    </edge>
+    <edge source="stickman.Entities.Mushroom" target="stickman.Entities.Subject">
+      <point x="59.75" y="-105.5" />
+      <point x="3802.774999999999" y="1995.0" />
+      <point x="3840.524999999999" y="1995.0" />
+      <point x="0.0" y="49.0" />
+    </edge>
+    <edge source="stickman.levels.DefaultLevelBuilder" target="stickman.levels.LevelBuilder">
+      <point x="69.64705882352928" y="-137.5" />
+      <point x="2866.2050228335415" y="4425.0" />
+      <point x="4108.490046806461" y="4425.0" />
+      <point x="-74.25" y="248.0" />
+    </edge>
+    <edge source="stickman.levels.LevelImp" target="stickman.view.SkyOnlyBackground">
+      <point x="120.10526315789548" y="-600.5" />
+      <point x="4084.0634551389694" y="2478.0" />
+      <point x="5646.250085792813" y="2478.0" />
+      <point x="-46.0" y="71.5" />
+    </edge>
+    <edge source="stickman.view.KeyboardInputHandler" target="stickman.model.GameEngine">
+      <point x="69.66666666666697" y="-116.0" />
+      <point x="5864.972588739625" y="5407.0" />
+      <point x="5816.750085792813" y="5407.0" />
+      <point x="5816.750085792813" y="1985.0" />
+      <point x="5783.500085792813" y="1985.0" />
+      <point x="-7.25" y="115.5" />
+    </edge>
+    <edge source="stickman.levels.LevelBuilder" target="stickman.Entities.Entity">
+      <point x="-84.85714285714312" y="-248.0" />
+      <point x="4097.882903949318" y="3789.0" />
+      <point x="3079.919444444444" y="3789.0" />
+      <point x="3079.919444444444" y="992.0" />
+      <point x="2742.6153604974515" y="992.0" />
+      <point x="14.044444444444252" y="126.5" />
+    </edge>
+    <edge source="stickman.Entities.HeroPathState.HeroPathStateContext" target="stickman.Entities.HeroPathState.StandState">
+      <point x="73.85000000000036" y="-61.0" />
+      <point x="5219.909210526315" y="1643.0" />
+      <point x="5481.406713473127" y="1643.0" />
+      <point x="-60.25" y="105.0" />
+    </edge>
+    <edge source="stickman.model.GameEngineImpl" target="stickman.Entities.Hero">
+      <point x="-6.5" y="-248.5" />
+      <point x="4489.240046806461" y="4780.0" />
+      <point x="4552.114255406292" y="4780.0" />
+      <point x="4552.114255406292" y="2458.0" />
+      <point x="4488.806063425216" y="2458.0" />
+      <point x="28.5" y="171.5" />
+    </edge>
+    <edge source="stickman.Entities.YouWinBanner" target="stickman.Entities.Entity.Layer">
+      <point x="62.0" y="-61.5" />
+      <point x="4098.025" y="1052.0" />
+      <point x="4096.87083435366" y="1052.0" />
+      <point x="4096.87083435366" y="449.0" />
+      <point x="2720.1147757021304" y="449.0" />
+      <point x="44.21052631578959" y="71.5" />
+    </edge>
+    <edge source="stickman.levels.LevelImp" target="stickman.Entities.Slime">
+      <point x="-154.42105263157828" y="-600.5" />
+      <point x="3809.537139349496" y="2488.0" />
+      <point x="3031.1527777777774" y="2488.0" />
+      <point x="62.0" y="171.5" />
+    </edge>
+    <edge source="stickman.Entities.HeroPathState.WalkLeftState" target="stickman.Entities.HeroPathState.HeroPathStateContext">
+      <point x="0.0" y="50.0" />
+      <point x="5437.998380139794" y="499.0" />
+      <point x="5410.656713473127" y="499.0" />
+      <point x="5410.656713473127" y="1633.0" />
+      <point x="5198.809210526315" y="1633.0" />
+      <point x="52.75" y="-61.0" />
+    </edge>
+    <edge source="stickman.Entities.FloorTileFactory.DefaultFloorTileFactory" target="stickman.Entities.FloorTileFactory.DefaultRightFloorTile">
+      <point x="-100.33333333333348" y="-27.0" />
+      <point x="1507.6666666666665" y="3849.0" />
+      <point x="709.0" y="3849.0" />
+      <point x="0.0" y="61.5" />
+    </edge>
+    <edge source="stickman.Entities.FloorTileFactory.DefaultLeftCornerFloorTile" target="stickman.Entities.Entity">
+      <point x="0.0" y="-61.5" />
+      <point x="1608.0" y="952.0" />
+      <point x="2686.437582719674" y="952.0" />
+      <point x="-42.13333333333321" y="126.5" />
+    </edge>
+    <edge source="stickman.levels.LevelImp" target="stickman.levels.Observer">
+      <point x="4.547473508864641E-13" y="-600.5" />
+      <point x="3963.9581919810744" y="2398.0" />
+      <point x="4002.024999999999" y="2398.0" />
+      <point x="4002.024999999999" y="1643.0" />
+      <point x="3837.5249999999996" y="1643.0" />
+      <point x="49.583333333333485" y="27.0" />
+    </edge>
+    <edge source="stickman.Entities.Mushroom" target="stickman.Entities.Entity.Layer">
+      <point x="99.58333333333348" y="-105.5" />
+      <point x="3842.6083333333327" y="2005.0" />
+      <point x="4447.437642372584" y="2005.0" />
+      <point x="4447.437642372584" y="429.0" />
+      <point x="2734.8516178073933" y="429.0" />
+      <point x="58.94736842105249" y="71.5" />
+    </edge>
+    <edge source="stickman.Entities.HeroPathState.WalkLeftState" target="stickman.Entities.HeroPathState.ImagePathState">
+      <point x="60.25" y="-50.0" />
+      <point x="5498.248380139794" y="206.0" />
+      <point x="5255.611477628514" y="206.0" />
+      <point x="53.55555555555566" y="83.0" />
+    </edge>
+    <edge source="stickman.model.GameEngineImpl" target="stickman.model.Memento">
+      <point x="6.5" y="-248.5" />
+      <point x="4502.240046806461" y="4790.0" />
+      <point x="4682.490046806461" y="4790.0" />
+      <point x="4682.490046806461" y="4445.0" />
+      <point x="4684.614255406292" y="4445.0" />
+      <point x="-107.25" y="127.0" />
+    </edge>
+    <edge source="stickman.levels.LevelImp" target="stickman.Entities.Flag">
+      <point x="-51.47368421052579" y="-600.5" />
+      <point x="3912.4845077705486" y="2428.0" />
+      <point x="3537.722502946812" y="2428.0" />
+      <point x="3537.722502946812" y="1603.0" />
+      <point x="3655.1916666666657" y="1603.0" />
+      <point x="52.25" y="61.5" />
+    </edge>
+    <edge source="stickman.Entities.FloorTileFactory.DefaultRightCornerFloorTile" target="stickman.Entities.Entity">
+      <point x="0.0" y="-61.5" />
+      <point x="394.0" y="872.0" />
+      <point x="2658.348693830785" y="872.0" />
+      <point x="-70.22222222222217" y="126.5" />
+    </edge>
+    <edge source="stickman.Entities.Tree" target="stickman.Entities.Entity">
+      <point x="-1.4210854715202004E-14" y="-61.5" />
+      <point x="115.0" y="852.0" />
+      <point x="2651.3264716085628" y="852.0" />
+      <point x="-77.24444444444453" y="126.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="2825.500000000001" y="997.9999999999999" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
